@@ -24,6 +24,9 @@ section{
     display: flex;
     
 }
+.sec-padding{
+    padding: 20px 0;
+}
 
 .sec-title{
     width: 50%;
@@ -32,6 +35,9 @@ section{
 
 }
 
+.sec-title .btn{
+    margin-bottom: 100px;
+}
 .sec-title img{
     width: 95%;
     
@@ -62,4 +68,10 @@ section{
 .top-banner{
     background-image: url(/img/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-section{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: bottom right;
 }
